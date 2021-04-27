@@ -1,8 +1,8 @@
 <configuration timestamp="2020-11-12T00:00:00.000000000Z">
     <base uri="" path="${app.lib}"/>
     <properties>
-        <property key="app.name" value="TestApp"/>
-        <property key="app.lib" value="${LOCALAPPDATA}/${app.name}/" os="win"/>
+        <property key="app.name" value="Betwasp"/>
+        <property key="app.lib" value="${LOCALAPPDATA}/Programs/${app.name}/" os="win"/>
         <property key="app.lib" value="${user.home}/Library/Application Support/${app.name}/" os="mac"/>
         <property key="app.lib" value="${user.home}/.config/${app.name}/" os="linux"/>
         <property key="default.launcher.main.class" value="testApp.Main"/>
